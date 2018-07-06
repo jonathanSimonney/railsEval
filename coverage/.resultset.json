@@ -9,15 +9,11 @@
         1,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/api/gazooies_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/application_controller.rb": [
         1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/channels/application_cable/channel.rb": [
@@ -29,6 +25,13 @@
       "/Users/supinternet15/Desktop/finalRubyProject/app/channels/application_cable/connection.rb": [
         0,
         0,
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/api/gazooies_controller.rb": [
+        0,
+        0,
+        null,
         0,
         0
       ],
@@ -48,6 +51,6 @@
         0
       ]
     },
-    "timestamp": 1530864633
+    "timestamp": 1530866712
   }
 }

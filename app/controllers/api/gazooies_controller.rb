@@ -1,5 +1,5 @@
 class Api::GazooiesController < ApplicationController
-  def Api
+  def index
 
   end
 end

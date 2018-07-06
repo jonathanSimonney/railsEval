@@ -29,13 +29,6 @@ gem 'jbuilder', '~> 2.5'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-# Use Rspec for unit test
-gem 'rspec-rails', '~> 3.7'
-# Use simplecov and poltergeist and caybara-screenshot and database_cleaner for rspec to work
-gem 'simplecov'
-gem 'poltergeist'
-gem 'capybara-screenshot'
-gem 'database_cleaner'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -45,6 +38,28 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Testing framework for rails 3.x and 4.x
+  gem 'rspec-rails'
+  # Some old stuff borrowed from Perl.
+  gem 'faker', git: 'git://github.com/stympy/faker.git'
+  # Some tools to generate test data
+  gem 'factory_girl_rails'
+  # Use debugger
+  gem 'debugger2'
+  # Use capybara (run acceptance test in a browser)
+  gem 'capybara'
+  # Deploy the right version of PhantomJS using rubygems
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
+  # Use phantomjs (acceptance tests are truely headless)
+  gem 'poltergeist'
+  # Screenshots on failure
+  gem 'capybara-screenshot'
+  # Database cleaner for test suite
+  gem 'database_cleaner'
+  # Capybara test in a real browser for kikouloliness
+  gem 'selenium-webdriver'
+  # Code coverage tool
+  gem 'simplecov', :require => false
 end
 
 group :development do
@@ -57,9 +72,6 @@ group :development do
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15', '< 4.0'
-  gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
