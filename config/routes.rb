@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :comments, only: [:create]
   resources :gazooies, only: [:index, :show, :create]
   resources :hash_tags, only: [:show]
+  resources :news
 end
