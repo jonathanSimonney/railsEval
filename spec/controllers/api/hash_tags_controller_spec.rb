@@ -1,13 +1,13 @@
 require 'spec_helper'
 
 describe Api::HashTagsController do
-  # KEEP CALM this tests work on a >> RESTFULL API <<
+  # KEEP CALM this tests work on a >> RESTFULL api <<
   # All render must be in json !
 
   # A test content for a gazooy (just to keep DRY)
   let(:valid_attributes_gazooies) { { "user_id" => "1", "text" => "#some #test #tags #in #a #gazooy"} }
 
-  describe "GET API index HashTags " do
+  describe "GET api index HashTags " do
     it "Lets get the all hashtag list" do
       gazooy = Gazooy.create! valid_attributes_gazooies
       all_hashtag = HashTag.all
@@ -16,7 +16,7 @@ describe Api::HashTagsController do
     end
   end
 
-  describe "GET API show HashTags" do
+  describe "GET api show HashTags" do
     it "Return all gazooies.limit(50) found on a specific hash_tag" do
       gazooy = Gazooy.create! valid_attributes_gazooies
       hash_tag = HashTag.last

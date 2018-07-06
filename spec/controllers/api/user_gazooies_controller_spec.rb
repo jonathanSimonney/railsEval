@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Api::UserGazooiesController do
-  # KEEP CALM this tests work on a >> RESTFULL API <<
+  # KEEP CALM this tests work on a >> RESTFULL api <<
   # All render must be in json !
   # help for that route : /api/users/:user_id/gazooies
   # note that : /api/users/index / show / edit etc. must not exist !

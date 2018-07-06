@@ -31,10 +31,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 # Use Rspec for unit test
 gem 'rspec-rails', '~> 3.7'
-# Use simplecov and poltergeist and caybara-screenshot for rspec to work
+# Use simplecov and poltergeist and caybara-screenshot and database_cleaner for rspec to work
 gem 'simplecov'
 gem 'poltergeist'
 gem 'capybara-screenshot'
+gem 'database_cleaner'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

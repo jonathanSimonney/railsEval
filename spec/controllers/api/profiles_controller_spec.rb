@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Api::ProfilesController do
-  # KEEP CALM this tests work on a >> RESTFULL API <<
+  # KEEP CALM this tests work on a >> RESTFULL api <<
   # All render must be in json !
 
   # A test content for a new User (just to keep DRY)
