@@ -29,7 +29,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+# Use Rspec for unit test
+gem 'rspec-rails', '~> 3.7'
+# Use simplecov and poltergeist and caybara-screenshot for rspec to work
+gem 'simplecov'
+gem 'poltergeist'
+gem 'capybara-screenshot'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

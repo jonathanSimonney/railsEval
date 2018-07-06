@@ -1,0 +1,42 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1530863618
+  }
+}
