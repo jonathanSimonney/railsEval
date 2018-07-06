@@ -27,7 +27,7 @@ describe HashTagsController do
       expect(put("/hash_tags/1")).not_to be_routable
     end
 
-    it "routes to #destroy" do
+    it "NO routes to #destroy" do
       expect(delete("/hash_tags/1")).not_to be_routable
     end
 
