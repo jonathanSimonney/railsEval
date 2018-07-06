@@ -38,7 +38,11 @@
         1,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/news_controller.rb": [
+      "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/pages_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/pages_controller.rb": [
         1,
         null
       ],
@@ -90,6 +94,10 @@
         0,
         0
       ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/news_controller.rb": [
+        0,
+        0
+      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/jobs/application_job.rb": [
         0,
         0
@@ -101,6 +109,6 @@
         0
       ]
     },
-    "timestamp": 1530881242
+    "timestamp": 1530882798
   }
 }
