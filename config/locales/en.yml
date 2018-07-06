@@ -38,5 +38,5 @@ en:
             attributes:
               email:
                 invalid: "Adresse email invalide"
-              password:
+              password_confirmation:
                 confirmation: "differente"
