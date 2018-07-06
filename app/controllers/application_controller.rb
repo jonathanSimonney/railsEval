@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   def index
-
+    @latest_gazooies = Gazooy.find(:order => "id desc", :limit => 2)
   end
 
   protected

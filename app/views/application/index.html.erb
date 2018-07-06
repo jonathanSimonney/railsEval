@@ -22,4 +22,8 @@
 
 <span>
   Les derniers gazooies
+
+  <% @latest_gazooies.each do |gazooie| %>
+    <%= render partial: 'order_products/recap.html.erb', locals: {gazooie: gazooie} %>
+  <% end %>
 </span>

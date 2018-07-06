@@ -46,28 +46,25 @@
         1,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/profiles_controller.rb": [
-        1,
-        null
-      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/application_controller.rb": [
         1,
         1,
         null,
         1,
-        null,
+        11,
         null,
         null,
         1,
         null,
         1,
-        0,
-        0,
-        0,
+        22,
+        22,
+        22,
         null,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/pages_controller.rb": [
+      "/Users/supinternet15/Desktop/finalRubyProject/app/models/gazooy.rb": [
+        1,
         1,
         null
       ],
@@ -106,6 +103,14 @@
         0,
         0
       ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/pages_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/profiles_controller.rb": [
+        0,
+        0
+      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/jobs/application_job.rb": [
         0,
         0
@@ -117,6 +122,6 @@
         0
       ]
     },
-    "timestamp": 1530883383
+    "timestamp": 1530885586
   }
 }
