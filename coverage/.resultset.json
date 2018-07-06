@@ -42,7 +42,11 @@
         1,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/pages_controller.rb": [
+      "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/profiles_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/profiles_controller.rb": [
         1,
         null
       ],
@@ -61,6 +65,10 @@
         0,
         0,
         null,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/pages_controller.rb": [
+        1,
         null
       ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/channels/application_cable/channel.rb": [
@@ -109,6 +117,6 @@
         0
       ]
     },
-    "timestamp": 1530882798
+    "timestamp": 1530883383
   }
 }

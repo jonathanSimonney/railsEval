@@ -9,6 +9,13 @@ Rails.application.routes.draw do
   resources :hash_tags, only: [:show]
   resources :news
   resources :pages, except: [:index]
+  resources :profiles, :except => [:destroy, :new, :index, :create] do
+    post "follow/:user_id", :to => "profiles#follow"
+    delete "unfollow/:user_id", :to => "profiles#unfollow"
+    get "followers/", :to => "profiles#followers"
+    get "followees/", :to => "profiles#followees"
+    get "mentions/", :to => "profiles#mentions"
+  end
 
 
 
