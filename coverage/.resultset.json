@@ -1,6 +1,19 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/supinternet15/Desktop/finalRubyProject/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/application_helper.rb": [
         1,
         null
@@ -13,6 +26,16 @@
         1,
         1,
         null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        20,
+        20,
+        20,
         null,
         null
       ],
@@ -44,13 +67,8 @@
         0,
         0,
         0
-      ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/models/application_record.rb": [
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1530866712
+    "timestamp": 1530876875
   }
 }
