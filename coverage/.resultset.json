@@ -22,7 +22,15 @@
         1,
         null
       ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/comments_helper.rb": [
+        1,
+        null
+      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/helpers/gazooies_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/comments_controller.rb": [
         1,
         null
       ],
@@ -73,6 +81,6 @@
         0
       ]
     },
-    "timestamp": 1530879455
+    "timestamp": 1530880609
   }
 }
