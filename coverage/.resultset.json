@@ -7,6 +7,10 @@
         null,
         1,
         null,
+        null,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/models/application_record.rb": [
@@ -33,9 +37,9 @@
         1,
         null,
         1,
-        23,
-        23,
-        23,
+        0,
+        0,
+        0,
         null,
         null
       ],
@@ -69,6 +73,6 @@
         0
       ]
     },
-    "timestamp": 1530878140
+    "timestamp": 1530879455
   }
 }
