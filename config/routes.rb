@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root to: 'application#index'
 
   resources :comments, only: [:create]
+  resources :gazooies, only: [:index, :show, :create]
 end

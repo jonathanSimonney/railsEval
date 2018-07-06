@@ -30,7 +30,7 @@
         1,
         null
       ],
-      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/comments_controller.rb": [
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/gazooies_controller.rb": [
         1,
         null
       ],
@@ -70,6 +70,10 @@
         0,
         0
       ],
+      "/Users/supinternet15/Desktop/finalRubyProject/app/controllers/comments_controller.rb": [
+        0,
+        0
+      ],
       "/Users/supinternet15/Desktop/finalRubyProject/app/jobs/application_job.rb": [
         0,
         0
@@ -81,6 +85,6 @@
         0
       ]
     },
-    "timestamp": 1530880609
+    "timestamp": 1530880908
   }
 }
